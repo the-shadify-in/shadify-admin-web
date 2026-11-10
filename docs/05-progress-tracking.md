@@ -21,11 +21,12 @@
 
 - [x] Next.js 16.4.6 Active LTS scaffolding complete.
 - [x] React 19.2.9 and React DOM 19.2.9 pinned exactly.
-- [x] `react-server-dom-webpack` pinned to `19.2.9` via npm overrides without standalone runtime collisions.
+- [x] Node.js 24 runtime validated (`v24.22.2` execution, npm `11.19.1`).
+- [x] RSC runtime security qualified: Next.js 16.4.6 encapsulates internal bundled RSC runtime; `overrides` serves as defensive boundary.
 - [x] Deterministic `package-lock.json` generated (87KB).
-- [x] `lockfile-lint` passed with `✔ No issues detected`.
-- [x] TypeScript compilation (`tsc --noEmit`) passed with 0 errors.
-- [x] Production build (`next build`) compiled successfully with static prerendering in 1931ms.
+- [x] `lockfile-lint` passed with `✔ No issues detected` under Node.js 24.
+- [x] TypeScript compilation (`tsc --noEmit`) passed with 0 errors under Node.js 24.
+- [x] Production build (`next build`) compiled successfully with static prerendering in 958ms under Node.js 24.
 - [x] Security headers (`DENY` X-Frame-Options, `nosniff`) configured in `next.config.ts`.
 - [x] `AdminShell` component and dashboard routes implemented.
 - [x] Internal BFF API client (`src/lib/api-client.ts`) scaffolded.
