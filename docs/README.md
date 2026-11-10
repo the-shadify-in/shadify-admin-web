@@ -19,7 +19,7 @@ Welcome to the internal engineering documentation for **`shadify-admin-web`**, t
 ## 2. Quickstart & Local Development
 
 ### Prerequisites
-- Node.js `>=22.14.0` (Jod LTS line)
+- Node.js `>=24.0.0 <25` (verified on `v24.22.2`)
 
 ### Commands
 ```bash

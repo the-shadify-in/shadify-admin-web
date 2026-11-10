@@ -4,6 +4,7 @@ Administrative Management Portal and Backend-For-Frontend (BFF) client for the S
 
 ## Technology Stack
 - **Framework**: Next.js 16.4.6 (Active LTS)
+- **Runtime**: Node.js 24 (`>=24.0.0 <25`, verified on `v24.22.2`)
 - **UI Runtime**: React 19.2.9 & React DOM 19.2.9 (Strictly Pinned)
 - **Bundler**: Turbopack
 - **Styling**: Tailwind CSS 3.4.17
@@ -22,3 +23,4 @@ Comprehensive engineering documentation, BFF routing guides, and UI specificatio
 npm ci
 npm run dev
 ```
+
