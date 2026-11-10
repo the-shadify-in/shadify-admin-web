@@ -1,0 +1,39 @@
+{
+  "name": "shadify-admin-web",
+  "version": "1.0.0",
+  "description": "Shadify Administrative Management Portal and BFF Client",
+  "private": true,
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start --port 3001",
+    "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm --validate-https --validate-package-names --allowed-package-versions react:19.2.9 react-dom:19.2.9 react-server-dom-webpack:19.2.9"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "lucide-react": "0.475.0",
+    "next": "16.4.6",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "tailwind-merge": "3.0.2"
+  },
+  "overrides": {
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "react-server-dom-webpack": "19.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.9",
+    "@types/react": "19.2.5",
+    "@types/react-dom": "19.2.5",
+    "autoprefixer": "10.4.20",
+    "lockfile-lint": "4.14.0",
+    "postcss": "8.5.3",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.8.2"
+  }
+}
+
